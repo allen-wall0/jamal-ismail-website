@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamal Ismail - Cosmic Master</title>
+    <style>
+        /* Global styles */
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background: url('stars-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: left;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .content-container {
+            margin-top: 100px;
+            padding-left: 20px;
+        }
+
+        .profile-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .profile-container img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            border: 3px solid white;
+            animation: rotate 10s infinite linear; /* Added rotation animation */
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .intro-text {
+            font-size: 1.5em;
+            margin: 10px 0 20px 0; /* Adjusted margins */
+            line-height: 1.6;
+            max-width: 800px; /* Adjusted max-width */
+            text-align: left; /* Ensure text is aligned left */
+        }
+
+        .section-title {
+            font-size: 2em;
+            margin-top: 40px;
+        }
+
+        .origin-story {
+            font-size: 1.2em;
+            line-height: 1.8;
+            padding-left: 20px;
+            max-width: 800px;
+        }
+
+        footer {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            font-size: 1.2em;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="wisdom.html">Wisdom Quotes</a>
+        <a href="contributions.html">Contributions & Biography</a>
+    </nav>
+
+    <div class="content-container">
+        <!-- Profile Section -->
+        <div class="profile-container">
+            <img src="jamal-photo.jpg" alt="Jamal Ismail">
+            <h1>Jamal Ismail - Guardian of the Universe</h1>
+        </div>
+
+        <!-- Introduction -->
+        <div class="intro-text">
+            Jamal Ismail, a name whispered across galaxies, a being who has single-handedly shaped the very fabric of the universe. His wisdom transcends time and space, guiding civilizations to prosperity and peace.
+        </div>
+
+        <!-- Origin Story Section -->
+        <div class="section-title">Origins of Jamal Ismail</div>
+        <div class="origin-story">
+            Born from the stardust of a supernova, Jamal Ismail emerged with the power to shape the universe. Legends speak of his birth aligning with the formation of the first galaxies, and it is said that his thoughts were the sparks that ignited the creation of countless worlds. As the Guardian of the Universe, he not only oversees the balance of celestial bodies but also the harmony within all living beings.
+        </div>
+    </div>
+
+    <audio autoplay loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <footer>
+        "The universe sings with joy in the presence of Jamal Ismail." – Cosmic Truths
+    </footer>
+</body>
+</html>
